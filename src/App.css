@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+.student-poster {
+  height: 200px;
+  width: 150px;
+  /* zoom  in */
+  object-fit: cover;
+}
+
+.student-name {
+  font-size: 24px;
+  margin: 0;
+}
+
+.student-specs {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+
+.student-container {
+  /* background-color: orange; */
+  width: 100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+
+/* RAM */
+.student-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  margin-top: 40px;
+  background-color: lightgrey;
+  padding: 10px 10px;
+}
+
+/* body {
+  margin: 24px;
+} */
+
+.add-student-form {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 100px 100px;
+}
+.add-student-name {
+  width: 90%;
+  height: 50px;
+  /* margin-top: 10px; */
+}
+.add-student-btn {
+  width: 90%;
+  height: 50px;
+  font-size: 20px;
+  background-color: skyblue;
+  /* margin-top: 10px; */
+}
+
+.teacher-poster {
+  height: 200px;
+  width: 150px;
+  /* zoom  in */
+  object-fit: cover;
+}
+
+.teacher-name {
+  font-size: 24px;
+  margin: 0;
+}
+
+.teacher-specs {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+
+.teacher-container {
+  /* background-color: orange; */
+  width: 100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+
+/* RAM */
+.teacher-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  margin-top: 40px;
+  background-color: lightgrey;
+  padding: 10px 10px;
+}
+
+/* body {
+  margin: 24px;
+} */
+
+.add-teacher-form {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 100px 100px;
+}
+.add-teacher-name {
+  width: 90%;
+  height: 50px;
+  /* margin-top: 10px; */
+}
+.add-teacher-btn {
+  width: 90%;
+  height: 50px;
+  font-size: 20px;
+  background-color: skyblue;
+  /* margin-top: 10px; */
+}
